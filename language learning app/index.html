@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Language Learning App</title>
+</head>
+<body>
+    <header>
+        <h1>Language Learning App</h1>
+    </header>
+    <div class="container">
+        <div class="languages">
+            <h2>Select a Language</h2>
+            <select id="language-select">
+                <option value="english">English</option>
+                <option value="spanish">Spanish</option>
+                <!-- Add more languages here -->
+            </select>
+        </div>
+        <div class="flashcard">
+            <h2>Flashcard</h2>
+            <div id="flashcard">
+                <p id="word">Hello</p>
+                <p id="translation" style="display: none;">Hola</p>
+            </div>
+            <button id="reveal-button">Reveal</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

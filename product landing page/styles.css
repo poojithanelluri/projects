@@ -1,0 +1,29 @@
+/* Add your custom CSS styles here */
+
+/* Customize header background */
+header {
+    background-image: url('header-background.jpg');
+    background-size: cover;
+}
+
+/* Customize product image size */
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Style pricing list */
+.list-group-item {
+    margin-bottom: 10px;
+}
+
+/* Style CTA button */
+.btn-lg {
+    padding: 10px 20px;
+}
+
+/* Customize footer */
+footer {
+    font-size: 14px;
+}
+    
